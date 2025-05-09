@@ -37,5 +37,5 @@ function findMissing(arr) {
 rl.question('Enter the array elements separated by comma(,) like --> e.g. 1,2,3,4\n', (answer)=>{
 	const input = answer.split(',').map(Number);
 	console.log(findMissing(input));
-                rl.close();
+    rl.close();
 });
