@@ -18,7 +18,7 @@ function template(func,n,ques,ques2){
 	else{
 		rl.question(ques, (answer)=>{
 			const input = answer.split(',').map(Number);
-			console.log(func(input), input);
+			console.log(func(input));
 			rl.close();
 		})
 	}
